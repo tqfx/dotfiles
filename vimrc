@@ -1,3 +1,5 @@
+source $VIMRUNTIME/defaults.vim
+
 set nocompatible "cp 本选项的效果是使得 Vim 或者更兼容 Vi
 set autoindent "ai 根据上一行决定新行的缩进
 set autoread "ar 有 Vim 之外的改动时自动重读文件
