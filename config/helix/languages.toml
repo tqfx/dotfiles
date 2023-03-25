@@ -1,0 +1,21 @@
+[[language]]
+name = "c"
+indent = { tab-width = 4, unit = "    " }
+[language.language-server]
+command = "clangd"
+args = [
+    "--completion-style=detailed",
+    "--header-insertion=never",
+    "--clang-tidy",
+]
+
+[[language]]
+name = "cpp"
+indent = { tab-width = 4, unit = "    " }
+[language.language-server]
+command = "clangd"
+args = [
+    "--completion-style=detailed",
+    "--header-insertion=never",
+    "--clang-tidy",
+]
